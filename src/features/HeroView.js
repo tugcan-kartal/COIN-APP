@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchCoins } from './heroSlice';
+import {AiOutlineDown} from "react-icons/ai";
 
 const HeroView = () => {
 
@@ -22,13 +23,12 @@ const HeroView = () => {
       
         <div className='flex flex-col pt-[10vh]'>
 
-
-          <div className='text-center text-8xl font-bold'>
+          <div className='flex flex-col justify-center items-center text-center text-4xl md:text-8xl font-bold'>
             <p className='text-white mb-[1vh]'>TRACK AND TRADE</p>
             <p className='text-purple-500'>CRYPTO CURRENCIES</p>
           </div>
 
-          <div className='flex justify-center items-center gap-x-[10vw] pt-[15vh]'>
+          <div className='flex invisible md:visible justify-center items-center gap-x-[10vw] pt-[15vh]'>
 
             <div className='text-center text-white font-semibold'>
               <div> <img alt='not found' className='w-[5vw] mx-auto' src={coinData[0].image}/> </div>
@@ -64,6 +64,12 @@ const HeroView = () => {
 
           </div>
 
+          <div className='md:invisible visible mx-auto cursor-pointer z-50'>
+            <div className='flex items-center gap-x-[2vw] bg-indigo-900 text-white text-xl px-6 py-4 rounded-full text-center'>
+              <div>See Prices</div> 
+              <div className='pt-[0.5vh]'><AiOutlineDown /></div>
+            </div>
+          </div>
 
         </div>
 
