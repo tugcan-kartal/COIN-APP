@@ -1,11 +1,13 @@
 import HeroView from "./features/HeroView";
+import MarketView from "./features/MarketView";
 import Navbar from "./features/Navbar";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <HeroView />
+      {/* <HeroView /> */}
+      <MarketView />
     </div>
   );
 }

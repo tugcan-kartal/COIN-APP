@@ -7,7 +7,6 @@ const HeroView = () => {
 
   const dispatch=useDispatch();
   let coinData=useSelector((state)=>state.heroReducer).coins;
-  console.log(coinData);
 
   useEffect(()=>{
     dispatch(fetchCoins());
