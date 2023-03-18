@@ -4,7 +4,7 @@ import axios from "axios";
 const initialState={
     loading: false,
     coins: [],
-    currentPage: 3,
+    currentPage: 1,
     error: "",
 };
 
