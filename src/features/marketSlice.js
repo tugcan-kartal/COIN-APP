@@ -9,8 +9,7 @@ const initialState={
 };
 
 export const fetchCoinList=createAsyncThunk("fetchCoinList",async()=>{
-    let currentPage=initialState.currentPage;
-    const response=await axios.get(`https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=${currentPage}&sparkline=false`);
+    const response=await axios.get(`https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=${initialState.currentPage}&sparkline=false`);
     return response.data;
 });
 
