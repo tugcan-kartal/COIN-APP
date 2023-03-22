@@ -14,7 +14,7 @@ const HeroView = () => {
 
   return (
     
-    <div className='h-[90vh] bg-gradient-to-b from-indigo-900 to-purple-800'>
+    <div id='home' className='h-[90vh] bg-gradient-to-b from-indigo-900 to-purple-800'>
 
       {coinData.loading && "fetching data"}
       {coinData.error && "fetching error"}
