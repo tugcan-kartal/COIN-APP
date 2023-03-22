@@ -1,6 +1,7 @@
 # E-Commerce App
 
-This project published by netlify [To See Project](https://6411903e9351de1e26c9f112--tugcankartalecommercewebsite.netlify.app/).
+This project published by netlify [To See Project](https://641b222dc64c0d18a38466d5--coinappbytugcankartal.netlify.app/).
+
 ## The Main Technologies 
 
 ### REACTJS 
@@ -9,12 +10,15 @@ This project published by netlify [To See Project](https://6411903e9351de1e26c9f
 
 ### Main Purpose
 
-Build responsive,fast and stylish e-commerce website.
-![Project Images](https://raw.githubusercontent.com/tugcan-kartal/Clothing-Store/main/src/static/(1275).png)
-![Project Images](https://raw.githubusercontent.com/tugcan-kartal/Clothing-Store/main/src/static/(1276).png)
-![Project Images](https://raw.githubusercontent.com/tugcan-kartal/Clothing-Store/main/src/static/(1277).png)
-![Project Images](https://raw.githubusercontent.com/tugcan-kartal/Clothing-Store/main/src/static/(1278).png)
-![Project Images](https://raw.githubusercontent.com/tugcan-kartal/Clothing-Store/main/src/static/(1279).png)
+Build responsive,fast and stylish coin info website.
+![Project Images](https://raw.githubusercontent.com/tugcan-kartal/Clothing-Store/main/src/static/1439.png)
+![Project Images](https://raw.githubusercontent.com/tugcan-kartal/Clothing-Store/main/src/static/1440.png)
+![Project Images](https://raw.githubusercontent.com/tugcan-kartal/Clothing-Store/main/src/static/1441.png)
+![Project Images](https://raw.githubusercontent.com/tugcan-kartal/Clothing-Store/main/src/static/1442.png)
+![Project Images](https://raw.githubusercontent.com/tugcan-kartal/Clothing-Store/main/src/static/1443.png)
+![Project Images](https://raw.githubusercontent.com/tugcan-kartal/Clothing-Store/main/src/static/1444.png)
+![Project Images](https://raw.githubusercontent.com/tugcan-kartal/Clothing-Store/main/src/static/1445.png)
+![Project Images](https://raw.githubusercontent.com/tugcan-kartal/Clothing-Store/main/src/static/1446.png)
 
 ## Npm
 
