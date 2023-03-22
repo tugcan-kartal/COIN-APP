@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from 'react';
+import React,{useEffect,useState} from 'react';
 import { useDispatch,useSelector } from 'react-redux';
 import { fetchCoinList,changePage } from './marketSlice';
 
@@ -7,12 +7,13 @@ const MarketView = () => {
 
     const dispatch=useDispatch();
     let coinListData = useSelector((state) => state.marketRReducer).coins;
-    console.log("Buradaki data",coinListData);
 
+    const [pageNumber,setPageNumber]=useState();
 
     useEffect(()=>{
+        dispatch(changePage(pageNumber));
         dispatch(fetchCoinList());
-    },[]);
+    },[pageNumber]);
 
   return (
     <div className='bg-purple-800'>
@@ -52,12 +53,12 @@ const MarketView = () => {
                 ))}
               </div>
 
-              <div className='flex gap-x-[2vw]'>
-                <div className='cursor-pointer'>1</div>
-                <div className='cursor-pointer'>2</div>
-                <div className='cursor-pointer'>3</div>
-                <div className='cursor-pointer'>4</div>
-                <div className='cursor-pointer'>5</div>
+              <div className='flex justify-center gap-x-[5vw]'>
+                <div className="text-white bg-purple-500 text-lg px-[1vw] py-[0.5vh] rounded-full cursor-pointer" onClick={()=>setPageNumber(1)}>1</div>
+                <div className="text-white bg-purple-500 text-lg px-[1vw] py-[0.5vh] rounded-full cursor-pointer" onClick={()=>setPageNumber(2)}>2</div>
+                <div className="text-white bg-purple-500 text-lg px-[1vw] py-[0.5vh] rounded-full cursor-pointer" onClick={()=>setPageNumber(3)}>3</div>
+                <div className="text-white bg-purple-500 text-lg px-[1vw] py-[0.5vh] rounded-full cursor-pointer" onClick={()=>setPageNumber(4)}>4</div>
+                <div className="text-white bg-purple-500 text-lg px-[1vw] py-[0.5vh] rounded-full cursor-pointer" onClick={()=>setPageNumber(5)}>5</div>
               </div>
 
             </div>
