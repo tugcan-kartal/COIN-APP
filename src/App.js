@@ -1,3 +1,4 @@
+import FooterView from "./features/Footer";
 import HeroView from "./features/HeroView";
 import MarketView from "./features/MarketView";
 import Navbar from "./features/Navbar";
@@ -10,6 +11,7 @@ function App() {
       <HeroView />
       <MarketView />
       <WhyChooseUs />
+      <FooterView />
     </div>
   );
 }

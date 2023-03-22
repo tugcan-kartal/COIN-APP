@@ -6,7 +6,7 @@ import BitcoinIcon from "../static/undraw_bitcoin_re_urgq.svg";
 
 const WhyChooseUs = () => {
   return (
-    <div className='bg-purple-800 pt-[5vh]'>
+    <div className='bg-purple-800 pt-[5vh] pb-[10vh]'>
 
         <div className='text-white text-center text-4xl font-bold mb-[5vw]'>
             <span>WHY</span>
