@@ -23,7 +23,7 @@ const MarketView = () => {
 
               <div className='text-white text-4xl font-bold mb-[5vh]'>Market</div>
 
-              <div className='flex justify-between text-white text-xl font-semibold py-[3vh] bg-gradient-to-r from-indigo-900 to-indigo-500 rounded-t-2xl'>
+              <div className='flex justify-between text-white text-xl font-semibold px-[2vw] py-[3vh] bg-gradient-to-r from-indigo-900 to-indigo-500 rounded-t-2xl'>
                 <p>Coin</p>
                 <p>Price</p>
                 <p>24h Change</p>
