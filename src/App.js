@@ -1,4 +1,4 @@
-import FooterView from "./features/Footer";
+import FooterView from "./features/FooterView";
 import HeroView from "./features/HeroView";
 import MarketView from "./features/MarketView";
 import Navbar from "./features/Navbar";

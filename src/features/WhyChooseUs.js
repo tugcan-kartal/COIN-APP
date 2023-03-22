@@ -13,7 +13,7 @@ const WhyChooseUs = () => {
             <span className='text-indigo-500 mx-[1vw]'>CHOOSE US</span>
         </div>
 
-        <div className='flex justify-between text-white mx-[1vw]'>
+        <div className='flex flex-col md:flex-row justify-between text-white mx-[1vw]'>
 
             <div className='flex flex-col gap-y-[5vh]'> 
 
@@ -44,7 +44,7 @@ const WhyChooseUs = () => {
             </div>
 
             <div>
-                <img className='w-[40vw] h-[60vh] my-auto' src={BitcoinIcon} alt="not found" />
+                <img className='md:w-[40vw] md:h-[60vh] my-[5vh] mx-auto' src={BitcoinIcon} alt="not found" />
             </div>
 
             <div className='flex flex-col gap-y-[5vh]'>
