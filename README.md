@@ -1,6 +1,6 @@
 # Coin App
 
-This project published by netlify [To See Project]([https://641b222dc64c0d18a38466d5--coinappbytugcankartal.netlify.app/](https://coin-app-seven.vercel.app/)).
+This project published by netlify [To See Project](https://coin-app-seven.vercel.app/).
 
 ## The Main Technologies 
 
